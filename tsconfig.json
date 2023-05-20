@@ -1,0 +1,27 @@
+{
+  "include": ["./src"],
+  "files": ["./webpack.config.js"],
+  "exclude": [],
+  "compilerOptions": {
+    "exactOptionalPropertyTypes": true,
+    "noUncheckedIndexedAccess": true,
+    "strict": true,
+
+    "module": "es2022",
+    "moduleResolution": "node",
+    "rootDir": ".",
+
+    "newLine": "lf",
+    "outDir": "./dist",
+    "sourceMap": true,
+
+    "allowSyntheticDefaultImports": true,
+    "forceConsistentCasingInFileNames": true,
+
+    "jsx": "react-jsx",
+    "lib": ["es2022", "dom"],
+    "target": "es2022",
+
+    "skipLibCheck": true
+  }
+}
